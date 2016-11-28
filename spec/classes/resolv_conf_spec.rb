@@ -114,7 +114,7 @@ describe 'resolv_conf' do
 
           it 'should compile the template based on the class parameters' do
             content = param_value(
-              subject,
+              'subject',
               'file',
               'resolv.conf',
               'content'
@@ -198,7 +198,7 @@ describe 'resolv_conf' do
 
           it 'should compile the template based on the class parameters' do
             content = param_value(
-              subject,
+              'subject',
               'file',
               'resolv.conf',
               'content'
