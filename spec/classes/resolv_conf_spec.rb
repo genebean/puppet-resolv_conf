@@ -50,10 +50,7 @@ describe 'resolv_conf' do
         describe "on supported osfamily: #{osfamily}" do
 
           it "should fail to compile" do
-            expect {
-              should compile
-            }.to raise_error(Puppet::Error,
-                             /domainname and searchpath are mutually exclusive parameters/)
+            should raise_error(Puppet::Error, /domainname and searchpath are mutually exclusive parameters/)
           end
         end
       end
