@@ -47,3 +47,4 @@ class resolv_conf(
 		}
   }
 }
+
