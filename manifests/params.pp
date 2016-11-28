@@ -31,7 +31,7 @@ class resolv_conf::params {
 
     default: {
       case $::operatingsystem {
-        gentoo: {
+        'gentoo': {
           $config_file = '/etc/resolv.conf'
           $group       = 'root'
         }
