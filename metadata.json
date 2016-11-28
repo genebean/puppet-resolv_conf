@@ -1,12 +1,12 @@
 {
-  "name": "saz-resolv_conf",
+  "name": "genebean-resolv_conf",
   "version": "3.0.5",
-  "author": "saz",
-  "summary": "UNKNOWN",
+  "author": "Gene Liverman",
+  "summary": "A Puppet module for managing resolve.conf",
   "license": "Apache License, Version 2.0",
-  "source": "https://github.com/saz/puppet-resolv_conf.git",
-  "project_page": "https://github.com/saz/puppet-resolv_conf",
-  "issues_url": "https://github.com/saz/puppet-resolv_conf/issues",
+  "source": "https://github.com/genebean/puppet-resolv_conf.git",
+  "project_page": "https://github.com/genebean/puppet-resolv_conf",
+  "issues_url": "https://github.com/genebean/puppet-resolv_conf/issues",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat"
@@ -44,19 +44,15 @@
   ],
   "requirements": [
     {
-      "name": "pe",
-      "version_requirement": ">=3.2.0 < 3.4.0"
-    },
-    {
       "name": "puppet",
-      "version_requirement": "3.x"
+      "version_requirement": ">= 2.7.0 < 5.0.0"
     }
   ],
   "description": "Manage resolv.conf via Puppet",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 3.2.0"
+      "version_requirement": ">= 3.2.0 < 5.0.0"
     }
   ]
 }
